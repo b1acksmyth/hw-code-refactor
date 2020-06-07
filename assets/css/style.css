@@ -8,9 +8,21 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Style for words on the page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff
+}
+
+/*Style for the header and nav buttons */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -20,7 +32,7 @@ header > h1 {
     font-size: 48px;
 }
 
-header > h1 > .seo {
+header > h1 > #seo {
     color: #d9dcd6;
 }
 
@@ -28,7 +40,7 @@ header > nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 20px;
 }
 
@@ -41,16 +53,7 @@ header > nav > ul > li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* This section is top image on the page */
+/* Styles top image on the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +61,34 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+
+
+/* Styles the main content on the page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization > h2, #online-reputation-management > h2, #social-media-marketing > h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Style for the images in the main content section */
+#search-engine-optimization > img, #online-reputation-management > img, #social-media-marketing > img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -70,31 +101,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* This section styles the information on the page */
-#search-engine-optimization, #online-reputation-management, #social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization > img, #online-reputation-management > img, #social-media-marketing > img {
-    max-height: 200px;
-}
-
-#search-engine-optimization > h2, #online-reputation-management > h2, #social-media-marketing > h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styles the side bar content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,7 +109,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif' ;
     background-color: #2589bd;
 }
 
@@ -122,10 +129,7 @@ p {
     max-width: 150px;
 }
 
-h4 {
-    font-size: 20px;
-}
-
+/* Styles the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -133,3 +137,6 @@ footer {
     text-align: center;
 }
 
+h4 {
+    font-size: 20px;
+}
